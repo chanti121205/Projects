@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Niconne&family=Petit+Formal+Script&family=Rochester&display=swap');
+
+body{
+    background-color: rgb(235, 231, 231);
+    font-family: "Rochester", cursive;
+    width: 450px;
+    justify-self: center;
+}
+
+h3{
+    justify-self: center;
+    color: rgb(143, 110, 143);
+    font-family: "Fleur De Leah", cursive;
+    font-size: 36px;
+    margin-bottom: 0px;
+}
+h4{
+    justify-self: center;
+    color: rgb(32, 25, 32);
+    font-size: 18px;
+    margin-top: 5px;
+}
+a{
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(32, 25, 32);
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
+a p{
+    border: 1px dotted rgb(143, 110, 143);
+    background-color: rgb(168, 161, 168);
+    border-radius: 20px;
+
+
+}
+img{
+    width: 100px;
+    border-radius: 10px;
+    justify-self: center;
+}

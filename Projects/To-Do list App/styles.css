@@ -1,0 +1,541 @@
+body{
+    background-color: rgb(233, 233, 233);
+    width: 390px;
+    padding: 20px;
+    justify-self: center;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/*Home*/
+/*NAV*/
+nav.Home{
+    border: 1px solid rgb(228, 228, 228);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(205, 205, 205);
+    border-radius: 20px;
+    height: 50px;
+    width: 385;
+    padding-right: 10px;
+}
+p.menu{
+    color: black;
+    border-radius: 20px;
+    width: 25px;
+    height: 13px;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+h1{
+    color: rgb(83, 83, 83);
+    font-size: 22px;
+    margin-top: 12px;
+}
+.profile{
+    border: 3px solid rgb(243, 241, 241);
+    border-radius: 50%;
+    height: 30px;
+    margin-top: 5px;
+}
+img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+/*MAIN*/
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 380px;
+}
+.head{
+    text-shadow: 2px 2px 4px rgb(107, 106, 106);
+    font-size: 20px;
+    color: rgb(83, 83, 83);
+}
+.task_notify{
+    display: flex;
+    flex-direction: row;
+    border: 1px dotted rgb(0, 0, 0);
+    background-color: black;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    height: 40px;
+    box-shadow: 2px 2px 4px grey;
+}
+.task_notify:hover{
+    background-color: rgb(44, 51, 53);
+    color: rgb(228, 213, 213);
+}
+.task {
+    text-align: center;
+    width: 180px;
+    font-size: 18px;
+    color:rgb(218, 217, 217) ;
+    margin-left: 20px;
+}
+.close{
+    border-radius: 50px;
+    border: 1px solid rgb(73, 73, 73);
+    width: 25px;
+    height: 25px;
+    color: rgb(205, 205, 205);
+    margin-right: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(73, 73, 73);
+    margin-right: 20px;
+}
+.close:hover{
+    background-color: rgb(47, 50, 51);
+    color: rgb(228, 213, 213);
+}
+.close_button{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 4px;
+}
+.today{
+    border: 1px solid rgb(233, 233, 233);
+    width: 300px;
+    background-color: rgb(233, 233, 233);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+.view_all{
+    margin-top: 20px;
+    color: rgb(73, 73, 73);
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+.first, .second{
+    border: 1px solid rgb(243, 241, 241);
+    background-color: rgb(243, 241, 241);
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 4px grey;
+    margin-top: 0px;
+}
+.title{
+    margin-left: 20px;
+    font-size: 14px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 20px 0px 10px;
+    margin-bottom: 0px;
+}
+.edit_button{
+    color: black;
+    border: 1ps solid grey;
+    background-color: rgb(189, 189, 189);
+    border-radius: 20px;
+    width: 25px;
+    height: 13px;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+hr{
+    margin-top: 0px;
+    margin-bottom: 6px;
+}
+.status{
+    text-align: center;
+    font-size: 12px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 20px;
+    height: 15px;
+    width: 150px;
+    justify-self: center;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+.status_null{
+text-align: center;
+margin-top: 1px;
+border-radius: 20px;
+}
+.status_full{
+background-color: rgb(55, 64, 78);
+text-align: center;
+margin-top: 0px;
+border-radius: 20px;
+color: rgb(243, 241, 241);
+margin-top: 1px;
+}
+/*FOOTER*/
+footer{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+border: 1px solid white;
+border-radius: 20px;
+height: 34px;
+width: 330px;
+background-color: white;
+color: rgb(73, 73, 73);
+gap: 10px;
+justify-self: center;
+}
+.home_button, .new_button, .date_button{
+color: rgb(73, 73, 73);
+text-align: center;
+margin-top: 7px;
+padding: 0px 20px;
+margin-bottom: 10px;
+}
+.home_button:hover, .date_button:hover{
+    color: rgb(42, 41, 65);
+    }
+.new_button{
+border: 1px solid rgb(55, 64, 78);
+background-color: rgb(22, 29, 41);
+border-radius: 50px;
+color: rgb(243, 241, 241);
+margin-top: 6px;
+}
+.new_button:hover{
+    border: 1px solid rgb(44, 58, 82);
+    background-color: rgb(49, 51, 54);
+    border-radius: 50px;
+    color: rgb(243, 211, 211);
+    }
+.status_null_due{
+background-color: rgb(66, 29, 47);
+text-align: center;
+margin-top: 0px;
+border-radius: 20px;
+color: rgb(243, 241, 241);
+margin-top: 1px;
+}
+.overdue{
+color: rgb(85, 14, 48);
+margin-top: 0px;
+}
+h3{
+display: flex;
+flex-direction: row;
+margin-bottom: 0px;
+}
+.Due{
+    border: 1px solid rgb(233, 233, 233);
+    width: 300px;
+    background-color: rgb(233, 233, 233);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+
+
+/*New Task*/
+/*NAV*/
+nav.Task{
+    border: 1px solid rgb(228, 228, 228);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(205, 205, 205);
+    border-radius: 20px;
+    height: 50px;
+    width: 385;
+    padding-right: 10px;
+}
+.back p{
+    width: 25px;
+    height: 25px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: 15px;
+    padding-top: 1px;
+    font-size: 16px;
+}
+h1.greeting{
+    text-shadow: 2px 2px 4px rgb(107, 106, 106);
+    font-size: 20px;
+    color: rgb(83, 83, 83);    
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+/*MAIN*/
+main.new{
+    border: 1px solid rgb(243, 241, 241);
+    background-color: rgb(243, 241, 241);
+    margin: 35px 0px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px grey;
+}
+.schedule_day{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 50px;
+}
+.calender_sign{
+    border: 1px dotted rgb(75, 75, 75);
+    background-color: rgb(235, 235, 235);
+    width: 26px;
+    height: 26px;
+    border-radius: 10px;
+    font-size: 22px;
+    color: rgb(134, 96, 96);
+}
+.calender_sign i{
+    margin-left: 2.5px;
+    padding-top: 5px;
+}
+.schedule_day p{
+    width: 320px;
+    height: 22px;
+    border: 1px dotted rgb(75, 75, 75);
+    background-color: rgb(235, 235, 235);
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 50px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    margin-left: 5px;
+    font-size: 14px;
+    color: rgb(66, 66, 66);
+    padding-top: 5px;
+}
+input{
+    align-self: center;
+    justify-self: center;
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+    height: 30px;
+    border: 1px dotted rgb(75, 75, 75);
+    background-color: rgb(235, 235, 235);
+    border-radius: 10px;
+    color: grey;
+}
+input:hover{
+    color: rgb(39, 39, 53);
+    }
+.button{
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100px;
+    justify-self: center;
+    margin-left: 0px;
+}
+.save{
+    background-color: rgb(194, 214, 228);
+    color: rgb(59, 68, 82);
+    border: none;
+    border-radius: 10px;
+}
+.save:hover{
+    background-color: rgb(141, 209, 230);
+    color: rgb(83, 49, 49);
+}
+.discard{
+    background-color: rgb(230, 194, 189);
+    color: rgb(82, 66, 59);
+    border: none;
+    border-radius: 10px;
+}
+.discard:hover{
+    background-color: rgb(228, 137, 134);
+    color: rgb(85, 38, 38);
+}
+
+
+
+/*CALENDER*/
+nav.calender{
+    border: 1px solid rgb(228, 228, 228);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(205, 205, 205);
+    border-radius: 20px;
+    height: 50px;
+    width: 385;
+    padding-right: 10px;
+}
+.back p{
+    width: 25px;
+    height: 25px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: 15px;
+    padding-top: 1px;
+    font-size: 16px;
+}
+/*MAIN*/
+.current_month{
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 220px;
+    height: 134px;
+    border-radius: 10px;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 2px 2px 4px rgb(107, 106, 106);
+}
+.Birthday{
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 18px;
+    background-color: rgb(160, 130, 135);
+    position: relative;
+    cursor: pointer;
+}
+
+.Birthday:hover::after {
+    content: "My B-day";
+    position: absolute;
+    background-color: rgb(129, 129, 129);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    white-space: nowrap;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.Birthday:hover::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(160, 130, 135) transparent transparent transparent;
+}
+
+
+
+/*PROFILE*/
+/*NAV*/
+nav.Profile{
+    border: 1px solid rgb(228, 228, 228);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(205, 205, 205);
+    border-radius: 20px;
+    height: 50px;
+    width: 385;
+    padding-right: 10px;
+}
+.task_overview, .complete, .Pending{
+    display: flex;
+    flex-direction: column;
+}
+p.overview{
+    color: rgb(109, 109, 109);
+    margin-bottom: 3px;
+    margin-top: 30px;
+    font-size: 18px;
+    text-shadow: 1px 1px 1px rgb(121, 120, 120);
+}
+.arc{
+    display: flex;
+    flex-direction: row;
+}
+.complete, .Pending{
+    margin-right: 20px;
+    align-items: center;
+    width: 120px;
+    background-color: rgb(216, 215, 215);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+small.if{
+    color: rgb(109, 109, 109);
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+p.number{
+    color: rgb(109, 109, 109);
+    margin-bottom: 5px;
+}
+.settings{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+/*SETTINGS PROP*/
+.settings p{
+    color: rgb(109, 109, 109);
+    margin-bottom: 3px;
+    margin-top: 20px;
+    font-size: 18px;
+    text-shadow: 1px 1px 1px rgb(131, 130, 130);
+}
+.pic, .name, .lang, .acc{
+    border: 1px dotted rgb(153, 152, 152);
+    background-color: rgb(145, 145, 145);
+    border-radius: 50px;
+    align-content: center;
+    justify-self: center;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+    margin-bottom: 16px;
+    margin-left: 0px;
+    width: 250px;
+    height: 38px;
+    box-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+.log{
+    border: 1px dotted rgb(117, 11, 11);
+    background-color: rgb(112, 14, 14);
+    border-radius: 50px;
+    align-content: center;
+    justify-self: center;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+    margin-bottom: 16px;
+    margin-left: 0px;
+    width: 250px;
+    height: 38px;
+    box-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+.pic a, .name a, .lang a, .acc a, .log a{
+    margin-top: 10px;
+    font-size: 14px;
+}
+
